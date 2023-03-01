@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const fetchData = async (location, queryDate, token) => {
     const endpoint = 'https://api.meteomatics.com' // add an /
     const date = queryDate

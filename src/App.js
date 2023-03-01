@@ -1,19 +1,10 @@
 import { useState, useCallback, useMemo } from 'react';
-import './App.css';
 import Header from './components/header/Header';
 import Filter from './components/widgets/filter/Filter';
 import Summary from './components/widgets/summary/Summary';
 import Timeseries from './components/widgets/timeseries/Timeseries';
 import { AuthContext } from './contexts/AuthContext';
 import { DataContext } from './contexts/DataContext';
-
-  /**
-   * filter default selection button
-   * user select range
-   * 2 graphs
-   * fetch data from api
-   * css for larger screens
-   */
 
 function App() {
 

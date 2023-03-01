@@ -2,7 +2,6 @@ import { useEffect, useState, useContext } from 'react'
 import { LineChart } from '../../charts/LineChart'
 import { BarChart } from '../../charts/BarChart'
 import { DataContext } from '../../../contexts/DataContext'
-import cityData from '../../../data/cityData'
 
 import '../../../styles/timeseries.css'
 

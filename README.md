@@ -2,7 +2,26 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## To setup the application locally
+
+##  Clone the git repository:
+
+## 1) `Git clone https://github.com/lilankaku/weather-app.git`
+
+
+##  Navigate inside the application folder:
+
+## 2) `cd weather-app`
+
+
+##  Install node modules: :
+
+inside the application folder:
+
+## 3) `cd weather-app`
+
+
+##  Run the application :
 
 In the project directory, you can run:
 

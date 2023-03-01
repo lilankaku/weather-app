@@ -2,9 +2,7 @@ import React, {useContext, useEffect, useState} from 'react'
 import { AuthContext } from '../../../contexts/AuthContext'
 import { DataContext } from '../../../contexts/DataContext'
 import Cloud_Icon from '../../../assets/Cloud_Icon.png'
-import Wind_Icon from '../../../assets/wind_direction.png'
 import '../../../styles/summary.css'
-import Timeseries from '../timeseries/Timeseries'
 import {getAPIKey} from '../../../api/getAPIKey'
 import { fetchData } from '../../../api/fetchData'
 
@@ -56,11 +54,6 @@ function Summary() {
         return dateTime
     }
 
-    const getLocation = () => {
-        return `Stockholm, SE`
-    }
-
-
     return (
     <div className="summary-container">
         <p className="summary-date">    
@@ -82,12 +75,9 @@ function Summary() {
                 </h3>
             </div>
             <div className="summary-stats-right">
-                {/* <div className="summary-wind-status"> */}
-                     {/* <img src={Wind_Icon}/> */}
                 <p>
                     Wind: { Object.keys(data).length === 0  ? 0 : data[4].coordinates[0].dates[0].value}m/s
                 </p>
-                {/* </div> */}
                 <p>
                     Humidity:  { Object.keys(data).length === 0  ? 0 : data[2].coordinates[0].dates[0].value}%
                 </p>
