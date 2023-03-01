@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+.header-container {
+    display: flex;
+    background-color:  #48484A;
+    min-height: 65px;
+    padding: 5px;
+    align-items: center;
+    gap: .5em;
+    
+}
+.logo {
+    margin-left: 1em;
+    width: 32px;
+    height: 32px;
+}
+
+.header-text {
+    font-size: calc(20px);
+    color: white
+}
